@@ -35,6 +35,8 @@ player who created that room.
 
 ### The Sequence of execution.
 
+##### Here I have used 127.0.0.1 as IP adrress because Server.java was running on the same computer as the Client.java
+
 #### [1]
 ```
 C:\Users\yashs\Downloads\src-20200728T121143Z-001\src>java Server
