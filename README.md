@@ -26,13 +26,11 @@ player who created that room.
 
 4) If you have created the room, Your game will not start until someone has joined your room. Once a person has joined your room the game will begin. After the game has been finished the room will be destroyed and name of that room is available.
 
-### Here's the Screenshots
+###### Note :- You can create any numbers of rooms concurrently. 
 
-![ss1](https://user-images.githubusercontent.com/48802492/88670739-11164280-d103-11ea-89b8-f98ec353e8bd.png)
+#### This is the Compilation Sequence
 
-![ss2](https://user-images.githubusercontent.com/48802492/88670732-0f4c7f00-d103-11ea-8e8d-5a0e6eee2809.png)
-
-![ss3](https://user-images.githubusercontent.com/48802492/88670737-107dac00-d103-11ea-8b5e-888fb21a7e13.png)
+![COMPILATION SEQUENCE](https://user-images.githubusercontent.com/48802492/88671239-b204fd80-d103-11ea-8b0f-80ace65c71f5.jpg)
 
 
 ### The Sequence of execution.
@@ -67,5 +65,15 @@ Enter valid room name
 Please Enter the name of the room :
 ROOM1
 ```
+
+
+### Here's the Screenshots
+
+![ss1](https://user-images.githubusercontent.com/48802492/88670739-11164280-d103-11ea-89b8-f98ec353e8bd.png)
+
+![ss2](https://user-images.githubusercontent.com/48802492/88670732-0f4c7f00-d103-11ea-8e8d-5a0e6eee2809.png)
+
+![ss3](https://user-images.githubusercontent.com/48802492/88670737-107dac00-d103-11ea-8b5e-888fb21a7e13.png)
+
 
 
