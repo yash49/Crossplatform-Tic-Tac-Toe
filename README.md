@@ -14,3 +14,53 @@
 player who created that room.
 
 •	 Once the game will get over, system will destroy that particular game room and then same name room will be available for re-creation.
+
+## Instructions : -
+
+
+1) First Run the Server file by writing `java Server` in your command prompt. Your Server has been started and your are good to go.
+
+2) Now to play games between multiple players open command prompt in any computer which is in same network as the computer running `Server.java`. Then type `java Client` and Enter the IP address of Server, Which will start the game. Here you have 2 options :- Create Room or Join Room.
+
+3) If a person has already created the room then you can join that room OR you can create your own room. If a room with already same name exists the you can not create the room with that name. To join the room you will have to give the name of the room that you want to join.
+
+4) If you have created the room, Your game will not start until someone has joined your room. Once a person has joined your room the game will begin. After the game has been finished the room will be destroyed and name of that room is available.
+
+### Here's the Screen Shot
+
+
+
+### The Sequence of execution.
+
+#### [1]
+```
+C:\Users\yashs\Downloads\src-20200728T121143Z-001\src>java Server
+Total rooms : 0
+Server started
+```
+
+#### [2]
+```
+C:\Users\yashs\Downloads\src-20200728T121143Z-001\src>java Client
+Enter server IP : 127.0.0.1
+Select any one : 1)Create room 2)Join room
+1
+Please Enter the name of the room :
+ROOM1
+Waiting for the opponent to join the room
+```
+
+#### [3]
+```
+C:\Users\yashs\Downloads\src-20200728T121143Z-001\src>java Client
+Enter server IP : 127.0.0.1
+Select any one : 1)Create room 2)Join room
+2
+Please Enter the name of the room :
+ROOM2
+Enter valid room name
+Please Enter the name of the room :
+ROOM1
+```
+
+
