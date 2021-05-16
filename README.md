@@ -1,8 +1,8 @@
 # Multiplayer Tic Tac Toe (Made with socket programming and multi-threading of JAVA)
 
-• 	Developed Tic Tac Toe game which works over LAN connection.
+## A LAN game developed using Java Socket & Multithreading where users can create custom rooms & play simultaneously.
+## Player can join from any platform (Windows, Linux or Mac).
 
-•	 Used concepts of socket programming and multi-threading of JAVA programming in this game development.
 
 •	 The unique feature of this project is that it allows multiple pair of players to play game concurrently.
 
