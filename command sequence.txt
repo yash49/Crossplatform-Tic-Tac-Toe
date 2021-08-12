@@ -1,0 +1,1 @@
+javac Client.java && javac TicTacToe.java && javac Server.java && javac Room.java && javac Player.java

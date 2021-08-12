@@ -1,24 +1,20 @@
-
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
-import java.util.Vector;
+import java.util.ArrayList;
 
 public class Server extends Thread{
 	
-	static Vector<Room> roomlist = new Vector<>();
+	static ArrayList<Room> roomlist = new ArrayList<>();
 	Player p;
 	String forWhat;
 	
 	public Server(Player p,String f) {
 		this.p = p;
 		forWhat = f;
-		// TODO Auto-generated constructor stub
 	}
 	
 	public void run()
@@ -117,7 +113,6 @@ public class Server extends Thread{
 				System.out.println("Server started");
 				
 				Socket s = null;
-				Scanner sc = new Scanner(System.in);
 				
 				while(true)
 				{
